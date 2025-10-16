@@ -8,6 +8,8 @@
     <meta name="author" content="Fernanda Brito">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+    <!-- Link para a Folha de Estilo da Página - CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Contato</title>
 </head>
 
@@ -28,38 +30,53 @@
         </nav>
 
     </header>
-
-    <!-- Seção Principal da Página (main) -->
-    <main>
-
         
     <!-- Seção Principal da Página (main) -->
-    <main>
+    <main class="main_contato">
 
         <!-- Seção do Formulário -->
         <form action="#" method="submit" id="formulario">
 
             <label for="nome">Nome: </label>
-            <input id="name" type="text" name="name" placeholder="Digite seu nome" />
+            <input 
+            id="name" 
+            type="text" 
+            name="name" 
+            placeholder="Digite seu nome" 
+            />
             <span id="errNome"></span>
 
             <label for="email">Email: </label>
-            <input id="email" type="text" name="email" placeholder="Digite seu email" />
+            <input 
+            id="email" 
+            type="text" 
+            name="email" 
+            placeholder="Digite seu email" 
+            />
             <span id="errEmail"></span>
 
             <label for="subject">Assunto: </label>
-            <input id="subject" type="text" name="subject" placeholder="Digite o assunto da mensagem" />
+            <input 
+            id="subject" 
+            type="text" 
+            name="subject" 
+            placeholder="Digite o assunto da mensagem" 
+            />
             <span id="errSubject"></span>
 
             <label for="message">Mensagem: </label>
-            <textarea id="message" name="message" placeholder="Digite sua mensagem"></textarea>
+            <textarea 
+            id="message" 
+            name="message" 
+            placeholder="Digite sua mensagem">
+            </textarea>
 
             <button type="submit">Enviar</button>
 
         </form>
 
         <!-- Seção do Google Maps -->
-        <article>
+        <article aticle class="article_mapa">
 
             <address>
          <p>Praia do Farol da Barra</p>
@@ -80,9 +97,6 @@
 
     </main>
 
-
-
-    </main>
 
     <!-- Rodapé da Página (footer) -->
     <footer>
